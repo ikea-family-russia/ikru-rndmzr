@@ -57,6 +57,7 @@
         </div>
       </div>
     </div>
+    <Firework v-if="winners.length>0"/>
     <div v-if="winners.length != 0">
       <br>
       <div class="title">ПОБЕДИТЕЛИ</div>
@@ -66,7 +67,6 @@
           {{item}}
         </li>
       </ul>
-      <Firework v-if="winners.length>0"/>
       <a v-if="showFullWinners==false" @click="showWinners" style="color: #fff; cursor: pointer; margin: 2em 0;">Показать полный список</a>
       <div v-if="showFullWinners==true">
         <div v-bind:key="item" v-for="item in winners">{{item}}</div>
