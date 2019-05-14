@@ -94,15 +94,15 @@ export default {
     opacity: 0; } }
 @-webkit-keyframes position {
   0%, 19.9% {
-    margin-left: 40%; }
+    margin-left: 20%; }
 
   20%, 39.9% {
  
-    margin-left: 30%; }
+    margin-left: 20%; }
 
   40%, 59.9% {
    
-    margin-left: 70%; }
+    margin-left: 40%; }
 
   60%, 79.9% {
     
@@ -110,19 +110,19 @@ export default {
 
   80%, 99.9% {
   
-    margin-left: 80%; } }
+    margin-left: 40%; } }
 @-moz-keyframes position {
   0%, 19.9% {
 
-    margin-left: 40%; }
+    margin-left: 20%; }
 
   20%, 39.9% {
 
-    margin-left: 30%; }
+    margin-left: 40%; }
 
   40%, 59.9% {
 
-    margin-left: 70%; }
+    margin-left: 20%; }
 
   60%, 79.9% {
 
@@ -130,27 +130,27 @@ export default {
 
   80%, 99.9% {
 
-    margin-left: 80%; } }
+    margin-left: 40%; } }
 @-o-keyframes position {
   0%, 19.9% {
 
-    margin-left: 40%; }
+    margin-left: 20%; }
 
   20%, 39.9% {
 
-    margin-left: 30%; }
+    margin-left: 40%; }
 
   40%, 59.9% {
 
-    margin-left: 70%; }
+    margin-left: 20%; }
 
   60%, 79.9% {
     
-    margin-left: 20%; }
+    margin-left: 40%; }
 
   80%, 99.9% {
     
-    margin-left: 80%; } }
+    margin-left: 20%; } }
 @-ms-keyframes position {
   0%, 19.9% {
     
@@ -158,19 +158,19 @@ export default {
 
   20%, 39.9% {
 
-    margin-left: 30%; }
+    margin-left: 40%; }
 
   40%, 59.9% {
 
-    margin-left: 70%; }
+    margin-left: 20%; }
 
   60%, 79.9% {
 
-    margin-left: 20%; }
+    margin-left: 40%; }
 
   80%, 99.9% {
 
-    margin-left: 80%; } }
+    margin-left: 20%; } }
 @keyframes position {
   0%, 19.9% {
 
@@ -178,18 +178,18 @@ export default {
 
   20%, 39.9% {
 
-    margin-left: 30%; }
+    margin-left: 40%; }
 
   40%, 59.9% {
 
-    margin-left: 70%; }
+    margin-left: 20%; }
 
   60%, 79.9% {
 
-    margin-left: 20%; }
+    margin-left: 40%; }
 
   80%, 99.9% {
 
-    margin-left: 80%; } }
+    margin-left: 20%; } }
 
 </style>

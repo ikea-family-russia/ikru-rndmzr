@@ -50,6 +50,7 @@ body {
   border-top: 1em solid rgb(32, 89, 158);
   background: url(assets/bg.webp);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #app {
