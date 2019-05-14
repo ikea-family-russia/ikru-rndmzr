@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" id="app">
     <div class="main-container">
-      <a href="http://ikea.ru" target="_blank"><img width="100" src="https://www.ikea.com/ext/ikeagateway/statics/logo.svg"></a>
+      <a href="http://ikea.ru" target="_blank"><img width="100" src="../src/assets/logoikea.png"></a>
       <Rndmzr/>
     </div>
   </div>

@@ -2,9 +2,10 @@
   <div>
     <div v-if="participants.length == 0">
       <p class="disclaimer">
-          Приложение разработано компанией IKEA для случайного выбора победителей среди участников конкурсов, проводимых комппанией IKEA<br/> 
-          Исходный код приложения находится по адресу 
-          <a style="color: #fff" href="https://github.com/ikea-family-russia/ikea-rndmzr">https://github.com/ikea-family-russia/ikea-rndmzr</a>
+          Приложение разработано для случайного выбора победителей среди участников конкурсов и розыгрышей призов, проводимых компанией ИКЕА.
+          <br>
+          Исходный код приложения находится 
+          <a style="color: #fff" href="https://github.com/ikea-family-russia/ikea-rndmzr">здесь</a>
       </p>
       <label for="file" class="circle-container">
         <div class="outer-ring"></div>
@@ -22,7 +23,7 @@
       <br>
       <p style="width: 50%; margin-left: auto; margin-right: auto; opacity: 0.6">
         <small>
-          Выбранный файл должен иметь формат .csv и содержать список мобильных телефонов в формате 79ХХХХХХХХХ. Каждый номер телефона начинается с новой строки
+          Выбранный файл должен иметь формат .csv и содержать список мобильных телефонов в формате 79ХХХХХХХХХ. Каждый номер телефона должен начинаться с новой строки. 
         </small>  
       </p>
     </div>
