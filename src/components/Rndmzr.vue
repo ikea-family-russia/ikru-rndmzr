@@ -104,7 +104,7 @@ export default {
         reader.readAsText(file);
       },
       setParticipants(text){
-        this.participants = text.split('\n');
+        this.participants = text.trim().split('\n');
       },
       shuffle(text){
         var number = text.split('\n');
