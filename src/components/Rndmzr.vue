@@ -5,7 +5,7 @@
           Приложение разработано для случайного выбора победителей среди участников конкурсов и розыгрышей призов, проводимых компанией ИКЕА.
           <br>
           Исходный код приложения находится 
-          <a style="color: #fff" href="https://github.com/ikea-family-russia/ikea-rndmzr">здесь</a>
+          <a style="color: #fff" href="https://github.com/ikea-family-russia/ikru-rndmzr">здесь</a>
       </p>
       <label for="file" class="circle-container">
         <div class="outer-ring"></div>
