@@ -115,7 +115,7 @@ export default {
           var n = this.randomInt(0, this.participants.length-1);
           var winner = this.participants[n];
           this.winners.push(winner);
-          var formattedWinner = `+${winner.substr(0,1)} (${winner.substr(1,3)}) ***-${winner.substr(7,2)}-${winner.substr(9,2)}`;
+          var formattedWinner = `+${winner.substr(0,1)}${winner.substr(1,3)}***${winner.substr(7,winner.length-7)}`;
           this.formattedWinners.push(formattedWinner);
           this.participants.splice(n, 1);
         }
