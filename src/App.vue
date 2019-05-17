@@ -48,7 +48,7 @@ footer {
 
 body {
   border-top: 1em solid rgb(32, 89, 158);
-  background: url(assets/bg.webp);
+  background: url(assets/bg.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
